@@ -2,6 +2,8 @@
 
 Groq Chat is a simple chat application that utilizes the Groq language model for providing chat completions.
 
+![Alt text](UI.png)
+
 ## Table of Contents
 - [Groq Chat](#groq-chat)
   - [Table of Contents](#table-of-contents)
