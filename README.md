@@ -6,7 +6,7 @@ Groq Chat is a simple chat application that utilizes the Groq language model for
 ![Alt text](UI.png)
 
 ## Ollama local
-![Alt text](UI_local.png)
+![Alt text](Ui_local.png)
 
 ## Table of Contents
 - [Groq Chat](#groq-chat)
