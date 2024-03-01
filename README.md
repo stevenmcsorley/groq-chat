@@ -78,7 +78,7 @@ Add the API key to your environment variables or directly into the application's
 
 In addition to using Groq Chat with the Groq API, you can also run a local version using the Ollama large language model. Follow these instructions to set up and use the local Ollama instance:
 
-1. Make sure you have Node.js installed on your system.
+1. Make sure you have Node.js installed on your system and Ollama installed
 2. Navigate to the `groq-chat` directory and run `node local.js` to start the local server.
 3. Open your web browser and go to `http://localhost:3000/local.html` to access the chat interface.
 4. The chat interface will now interact with your local Ollama instance to provide real-time chat completions.
