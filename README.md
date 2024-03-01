@@ -2,10 +2,16 @@
 
 Groq Chat is a simple chat application that utilizes the Groq language model for providing chat completions.
 
+## GROQ
 ![Alt text](UI.png)
+
+## Ollama local
+![Alt text](UI_local.png)
 
 ## Table of Contents
 - [Groq Chat](#groq-chat)
+  - [GROQ](#groq)
+  - [Ollama local](#ollama-local)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
@@ -13,6 +19,7 @@ Groq Chat is a simple chat application that utilizes the Groq language model for
   - [Obtaining a Groq API Key](#obtaining-a-groq-api-key)
     - [Configuring the API Key in Groq Chat](#configuring-the-api-key-in-groq-chat)
   - [Usage](#usage)
+  - [Local Ollama Setup](#local-ollama-setup)
   - [Testing](#testing)
   - [Contributing](#contributing)
   - [License](#license)
@@ -65,6 +72,19 @@ Add the API key to your environment variables or directly into the application's
 2. Open your web browser and navigate to `http://localhost:3000`.
 
 3. Start chatting and see chat completions in real-time!
+
+
+## Local Ollama Setup
+
+In addition to using Groq Chat with the Groq API, you can also run a local version using the Ollama large language model. Follow these instructions to set up and use the local Ollama instance:
+
+1. Make sure you have Node.js installed on your system.
+2. Navigate to the `groq-chat` directory and run `node local.js` to start the local server.
+3. Open your web browser and go to `http://localhost:3000/local.html` to access the chat interface.
+4. The chat interface will now interact with your local Ollama instance to provide real-time chat completions.
+
+(Note: Ensure that the `local.js` server script is properly configured to communicate with your local Ollama instance.)
+
 
 ## Testing
 
